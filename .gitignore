@@ -1,0 +1,32 @@
+# Python virtual environment — never push this
+backend/venv/
+
+# Python cache files — auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables — if you ever create one
+.env
+.env.local
+
+# Node modules — npm install recreates this
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Python egg info
+*.egg-info/
+dist/
+build/
